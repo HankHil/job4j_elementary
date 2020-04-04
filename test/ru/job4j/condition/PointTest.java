@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class PointTest {
 
     @Test
-    public void whenPoints0020ThenDistance20() {
+    public void whenPoints0020Then20Distance() {
         int x1 = 0;
         int y1 = 0;
         int x2 = 2;
