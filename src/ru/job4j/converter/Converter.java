@@ -1,11 +1,29 @@
 package ru.job4j.converter;
 
+/**
+ *  Class клаасс для перевода рубли в доллары или евро
+ *  @author kolpakov
+ *  @since 11.04.2020
+ */
+
 public class Converter {
+
+    /**
+     *
+     * @param value количество рублей
+     * @return количество евро
+     */
 
     public static int rubleToEuro(int value) {
         int rsl = value / 70;
         return rsl;
     }
+
+    /**
+     *
+     * @param value количество рублей
+     * @return количество долларов
+     */
 
     public static int rubleToDollar(int value) {
         int rsl = value / 60; // формула перевода рублей в доллоры.
