@@ -2,15 +2,13 @@ package ru.job4j.array;
 
 public class BarleyBreak {
     public static void main(String[] args) {
-        int[][] table = new int[3][3];
-        table[0][0] = 1;
-        table[0][1] = 2;
-        table[0][2] = 3;
-        table[1][0] = 4;
-        table[0][1] = 5;
-        table[0][2] = 6;
-        table[2][0] = 7;
-        table[0][1] = 8;
-        table[0][2] = 9;
+     int[][] data = new int[3][3];
+        int a = 1;
+            for (int i = 0; i < 3; i++) {
+                for (int i2 = 0; i2 < 3; i2++) {
+                    data[i][i2] = a;
+                    a += 1;
+            }
+        }
     }
 }
