@@ -10,4 +10,14 @@ public class MaxTest {
         int result = Max.max(1, 2);
         assertThat(result, is(2));
     }
+    @Test
+    public void whenMax123Then3() {
+        int result = Max.max(1, 2, 3);
+        assertThat(result, is(3));
+    }
+    @Test
+    public void whenMax2468Then8() {
+        int result = Max.max(2, 4, 6, 8);
+        assertThat(result, is(8));
+    }
 }
